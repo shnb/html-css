@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>任务二</title>
-		<style type="text/css">
+<head>
+	<meta charset="utf-8">
+	<title>任务二</title>
+	<style type="text/css">
 		#all{
 			justify-content: center;
 		}
@@ -14,10 +14,7 @@
 			height:60px;
 			margin:auto;
 			overflow: hidden;
-			position: relative;
-
-
-			
+			position: relative;	
 		}
 		#logo{
 			width:140px;
@@ -32,19 +29,19 @@
 			top:5px;
 			right:15px;
 			list-style: none;
-		
+
 		}
-		li{
+		.li1{
 			float:left;
 			margin-left: 15px;
 		}
-		a{
+		.a1{
 			font-size: 13px;
 			color:#ffffff;
 			align-self: center;
 			text-decoration: none;
 		}
-		a:hover{
+		.a1:hover{
 			color:#a5aab0; 
 		}
 		#middle{
@@ -52,10 +49,7 @@
 			background-color:#dedede;
 			margin:0 auto;
 			padding-top: 20px;
-			padding-bottom:20px; 
-			
-			
-			
+			padding-bottom:20px; 	
 		}
 		.content{
 			background-color:#fff;
@@ -67,176 +61,263 @@
 			padding: 20px;
 			
 		}
-		</style>
-	</head>
-	<body>
+		.textin{
+			text-indent: 2em;
+		}
+		.imgCon{
+			padding:10px;
+			border:1px solid #cecece;
+			width:100px;
+			margin-bottom: : 15px;
+		}
+		.sImg{
+			width:100px;
+			height:84px;
+		}
+		.imgLi{
+			margin-bottom: 15px;
+		}
+		.thTxt{
+			color: #ffffff;
+
+		}
+		table,table tr th, table tr td{
+			border:1px solid #cdcdcd;
+		}
+		label{
+			position: absolute;
+			right: 70%;
+		}
+		#footer{
+			width:80%;
+			height:70px;
+			margin:auto;
+			background-color: #000;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: #fff;
+			font-size: 11px;
+		}
+		#button{
+			width: 100%;
+			height:40px;
+			background-color: #3355d0;
+			border-radius: 8px;
+			margin-top: 10px;
+			color: #fff;border-color: #fff;
+			display:flex;
+			align-items: center;
+			justify-content: center;
+		}
+	</style>
+</head>
+<body>
 	
-		<div id="top">
+	<div id="top">
 		<img id="logo" src="./logo.png">
 		<ul id="nav">
-		<li><a href=""><strong>导航链接一</strong></a></li>
-			<li><a href=""><strong>导航链接二</strong></a></li>
-			<li><a href=""><strong>导航链接三</strong></a></li>
-			<li><a href=""><strong>导航链接四</strong></a></li>
+			<li class="li1"><a class="a1" href=""><strong>导航链接一</strong></a></li>
+			<li class="li1"><a class="a1" href=""><strong>导航链接二</strong></a></li>
+			<li class="li1"><a class="a1" href=""><strong>导航链接三</strong></a></li>
+			<li class="li1"><a class="a1" href=""><strong>导航链接四</strong></a></li>
 		</ul>
-		</div>
-		<div id="middle">
+	</div>
+	<div id="middle">
 
-        
-        <div class="content">
-		<h2>文章一级标题</h2>
-		<h2>文章二级标题</h2>
-		<p>文章作者 文章发表时间</p>
-		<p>
-			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
-		</p>
-		<img src='./pretty.jpeg'/>
-		<P>
-		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
-		</P>
+
+		<div class="content">
+			<h2>文章一级标题</h2>
+			<h2>文章二级标题</h2>
+			<p>文章作者 文章发表时间</p>
+			<p class="textin">
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</p>
+			<img src='./pretty.jpeg'/>
+			<P class="textin">
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</P>
 		</div>
 		<div class="content">
-		<h2>另一篇文章一级标题</h2>
-		<h2>文章二级标题</h2>
-		<p>文章作者  文章发表时间</p>
-		<p>
-		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
-		</p>
-		<img src='./pretty.jpeg'/>
-		<ul>
-			<li>列表项目一</li>
-			<li>列表项目二</li>
-			<li>列表项目三</li>
-		</ul>
+			<h2>另一篇文章一级标题</h2>
+			文章二级标题
+			<p>文章作者  文章发表时间</p>
+			<p class="textin">
+				这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br>换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+			</p>
+			<img src='./pretty.jpeg'/>
+			<ul style="list-style-type:none">
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
 		</div>
 		<div class="content">
-		<p>图片</p>
-		<ul style="list-style-type: none">
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-			<li>
-				<p>好看的图片</p>
-				<img src='./pretty.jpeg'/>
-			</li>
-		</ul>
+			<p>图片</p>
+			<ul style="list-style-type: none">
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+				<li class="imgLi">
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</li>
+			</ul>
 		</div>
 		<div class="content">
-		<h2>最后一篇文章一级标题</h2>
-		<h2>文章二级标题</h2>
-		<p>文章作者 文章发表时间</p>
-		<ol>
-			<li>排名1</li>
-			<li>排名2</li>
-			<li>排名3</li>
-		</ol>
-		<p>下面是一个表格，给表格加上border="1"好让你看出是一个表格</p>
-		<table border="1">
-			<thead>
-				<tr>
-					<th>表头</th>
-					<th>表头</th>
-					<th>表头</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>表内容单元格</td>
-					<td>表内容单元格</td>
-					<td><a href="#">操作</a></td>
-				</tr>
-				<tr>
-					<td>表内容单元格</td>
-					<td>表内容单元格</td>
-					<td><a href="#">操作</a></td>
-				</tr>
-				<tr>
-					<td>表内容单元格</td>
-					<td>表内容单元格</td>
-					<td><a href="#">操作</a></td>
-				</tr>
-				<tr>
-					<td>表内容单元格</td>
-					<td>表内容单元格</td>
-					<td><a href="#">操作</a></td>
-				</tr>
-				<tr>
-					<td>总计</td>
-					<td colspan="2">1000</td>
-				</tr>
-			</tbody>
-		</table>
-		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-		<h2>侧栏注册窗口标题</h2>
-		<form>
-			请输入邮箱地址：</label>
-			<input type="emailAddress" placeholder="这是一个文本输入框"/>
-			<p>邮箱地址请按要求格式输入</p>
-			请输入密码：
-			<input type="password" placeholder="这是一个文本输入框" value="password" />
-			请重复输入密码：
-			<input type="password" placeholder="这是一个文本输入框" value="repassword" />
-			<p>密码为6—16位英文数字</p>
-			性别：
-			<input type="radio" name="sex" value="man" />
-			<label>男</label>
-			<input type="radio" name="sex" value="woman"/>
-			<label>女</label>
-			城市：
-			<select multiple="multiple">
-				<option value="北京">北京</option>
-				<option value="上海" selected="selected">上海</option>
-				<option value="广州">广州</option>
-				<option value="深圳">深圳</option>
-			</select>
-			爱好：
-			<input type="checkbox" name="hobbit" value="sport"/>
-			<label>运动</label>
-			<input type="checkbox" name="hobbit" value="art"/>
-			<label>艺术</label>
-			<input type="checkbox" name="hobbit" value="science"/>
-			<label>科学</label>
-			个人描述：
-			<textarea cols="20" rows="2">这是一个多行输入框，输入您的个人描述</textarea>
-			<input type="submit" value="确认提交">
-		</form>
+			<h2>最后一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			文章作者 文章发表时间
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，给表格加上border="1"好让你看出是一个表格</p>
+			<table border="1"  width=100% cellspacing="0" cellpadding="5">
+				<thead style="background-color:#333333 ">
+					<tr>
+						<th class="thTxt">表头</th>
+						<th class="thTxt">表头</th>
+						<th class="thTxt">表头</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr style="background-color:#cdcdcd ">
+						<td><strong>总计</strong></td>
+						<td colspan="2"><strong>1000</strong></td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
+		<div class="content" style="position: relative;margin-bottom: 0;">
+			<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+			<form>
+				<div style="margin-top: 10px;">
+					<label >请输入邮箱地址:</label>
+					<input style="margin-left: 30%;" type="emailAddress" placeholder="这是一个文本输入框"/>
+				</div>
+				<div>
+					<p style="margin-left: 30%;color: #a7a7a7;">邮箱地址请按要求格式输入</p>
+				</div>
+				<div style="margin-top: 10px;">
+					<label>请输入密码：</label>
+					<input style="margin-left: 30%;" type="password" placeholder="这是一个文本输入框" value="password" />
+				</div>
+				<div style="margin-top: 10px;">
+					<label>请重复输入密码：</label>
+					<input style="margin-left: 30%;" type="password" placeholder="这是一个文本输入框" value="repassword" />
+				</div>
+				<div>
+					<p style="margin-left: 30%;color: #a7a7a7;">密码为6—16位英文数字</p>
+				</div>
+				<div style="margin-top: 10px;">
+					<label>性别：</label>
+					<input style="margin-left: 30%;" type="radio" name="sex" value="man" />
+					男
+					<input type="radio" name="sex" value="woman"/>
+					女
+				</div>
+				<div style="margin-top: 10px;">
+					<label>城市：</label>
+					<select style="margin-left: 30%;">
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+						<option value="广州">广州</option>
+						<option value="深圳">深圳</option>
+					</select>
+				</div>
+				<div style="margin-top: 10px;">
+					<label>爱好：</label>
+					<input style="margin-left: 30%;" type="checkbox" name="hobbit" value="sport"/>
+					运动
+					<input type="checkbox" name="hobbit" value="art"/>
+					艺术
+					<input type="checkbox" name="hobbit" value="science"/>
+					科学
+				</div>
+				<div style="margin-top: 10px;">
+					<label>个人描述：</label>
+					<textarea style="margin-left: 30%;width: 50%" cols="20" rows="5">这是一个多行输入框，输入您的个人描述</textarea>
+				</div>
+				<div id="button">确认提交</div>
+			</form>
 		</div>
+	</div>
 
-		<footer>版权所有&#169;</footer>
-
-
-	</body>
+	<div id="footer">版权所有&#169;</div>
+</body>
