@@ -48,12 +48,18 @@
 			background-color:#dedede;
 			margin:0;
 			padding-top: 20px;
-			padding-bottom:20px; 
 			overflow: auto;	
-			display: inline-block;
+			/*display: inline-block;*/
 		}
-		#left{
-			float: right;
+		#right{
+			position:relative;
+			width:370px;
+			background-color: #ffffff;
+			border: 1px solid #cbcbcb;
+			padding:20px;
+			float:right;
+			margin-right: 20px;
+			
 		}
 		.content{
 			background-color:#fff;
@@ -61,7 +67,7 @@
 			border-left:1px solid #cbcbcb;
 			border-right: 1px solid #cbcbcb;
 			border-bottom: 2px solid #848484;
-			margin: 0 400px 20px 20px;
+			margin: 0 450px 20px 20px;
 			padding: 20px;
 			
 			
@@ -73,7 +79,9 @@
 			padding:10px;
 			border:1px solid #cecece;
 			width:100px;
-			margin-bottom: : 15px;
+			margin : 10px;
+			display: inline-block;
+
 		}
 		.sImg{
 			width:100px;
@@ -81,6 +89,7 @@
 		}
 		.imgLi{
 			margin-bottom: 15px;
+			display: inline;
 		}
 		.thTxt{
 			color: #ffffff;
@@ -91,7 +100,7 @@
 		}
 		label{
 			position: absolute;
-			right: 70%;
+			right: 60%;
 		}
 		#footer{
 			width:100%;
@@ -128,37 +137,37 @@
 		</ul>
 	</div>
 	<div id="middle">
-	<div style="position:relative;float:right;width:330px;background-color: #ffffff;border: 1px solid #cbcbcb;padding:20px;">
-			<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+	<div id="right">
+			<h3 style="margin-left: 18px;">这里以后是一个侧栏，这是侧栏的标题</h3>
 			<form>
 				<div style="margin-top: 10px;">
-					<label >请输入邮箱地址:</label>
-					<input style="margin-left: 30%;" type="emailAddress" placeholder="这是一个文本输入框"/>
+					<label>请输入邮箱地址：</label>
+					<input style="margin-left: 40%;" type="emailAddress" placeholder="这是一个文本输入框"/>
 				</div>
 				<div>
-					<p style="margin-left: 30%;color: #a7a7a7;">邮箱地址请按要求格式输入</p>
+					<p style="margin-left: 40%;color: #a7a7a7;">邮箱地址请按要求格式输入</p>
 				</div>
 				<div style="margin-top: 10px;">
 					<label>请输入密码：</label>
-					<input style="margin-left: 30%;" type="password" placeholder="这是一个文本输入框" value="password" />
+					<input style="margin-left: 40%;" type="password" placeholder="这是一个文本输入框" value="password" />
 				</div>
 				<div style="margin-top: 10px;">
 					<label>请重复输入密码：</label>
-					<input style="margin-left: 30%;" type="password" placeholder="这是一个文本输入框" value="repassword" />
+					<input style="margin-left: 40%;" type="password" placeholder="这是一个文本输入框" value="repassword" />
 				</div>
 				<div>
-					<p style="margin-left: 30%;color: #a7a7a7;">密码为6—16位英文数字</p>
+					<p style="margin-left: 40%;color: #a7a7a7;">密码为6—16位英文数字</p>
 				</div>
 				<div style="margin-top: 10px;">
 					<label>性别：</label>
-					<input style="margin-left: 30%;" type="radio" name="sex" value="man" />
+					<input style="margin-left: 40%;" type="radio" name="sex" value="man" />
 					男
 					<input type="radio" name="sex" value="woman"/>
 					女
 				</div>
 				<div style="margin-top: 10px;">
 					<label>城市：</label>
-					<select style="margin-left: 30%;">
+					<select style="margin-left: 40%;">
 						<option value="北京">北京</option>
 						<option value="上海">上海</option>
 						<option value="广州">广州</option>
@@ -167,7 +176,7 @@
 				</div>
 				<div style="margin-top: 10px;">
 					<label>爱好：</label>
-					<input style="margin-left: 30%;" type="checkbox" name="hobbit" value="sport"/>
+					<input style="margin-left: 40%;" type="checkbox" name="hobbit" value="sport"/>
 					运动
 					<input type="checkbox" name="hobbit" value="art"/>
 					艺术
@@ -176,7 +185,7 @@
 				</div>
 				<div style="margin-top: 10px;">
 					<label>个人描述：</label>
-					<textarea style="margin-left: 30%;width: 50%" cols="20" rows="5">这是一个多行输入框，输入您的个人描述</textarea>
+					<textarea style="margin-left: 40%;width: 50%" cols="20" rows="5">这是一个多行输入框，输入您的个人描述</textarea>
 				</div>
 				<div id="button">确认提交</div>
 			</form>
@@ -210,69 +219,56 @@
 		</div>
 		<div class="content">
 			<p>图片</p>
-			<ul style="list-style-type: none">
-				<li class="imgLi">
+			
+				<div>
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+					<div class="imgCon">
+						<p>好看的图片</p>
+						<img class="sImg" src='./pretty.jpeg'/>
+					</div>
+				</div>
+				
 
-				<li class="imgLi">
+
+				<div>
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
 					<div class="imgCon">
 						<p>好看的图片</p>
 						<img class="sImg" src='./pretty.jpeg'/>
 					</div>
-				</li>
-				<li class="imgLi">
-					<div class="imgCon">
-						<p>好看的图片</p>
-						<img class="sImg" src='./pretty.jpeg'/>
-					</div>
-				</li>
-				<li class="imgLi">
-					<div class="imgCon">
-						<p>好看的图片</p>
-						<img class="sImg" src='./pretty.jpeg'/>
-					</div>
-				</li>
-				<li class="imgLi">
-					<div class="imgCon">
-						<p>好看的图片</p>
-						<img class="sImg" src='./pretty.jpeg'/>
-					</div>
-				</li>
-			</ul>
+				</div>
+				
+			
 		</div>
 		<div class="content">
 			<h2>最后一篇文章一级标题</h2>
