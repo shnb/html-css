@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+<head>
+<meta charset="utf-8">
+<title>任务七</title>
+<style type="text/css">
+@media screen and (max-width: 1280px){
+	body{
+		width:1280px;
+		margin:0;
+		
+	}
+}
+@media screen and (min-width: 1280px){
+	body{
+		width:100%;
+		margin:0;
+	
+	}
+}
+   #top{
+	height:60px;
+	margin-left:60px;
+	margin-right: 60px; 
+
+}
+#topBook{
+	width: 31px;
+	height:31px;
+	float:left;
+	margin-top: 12px;
+}
+#p1{
+	font-size: 21px;
+	margin-top: 16px;
+	float:left;
+	margin-left: 10px;
+	font-family: 'SimHei';
+
+}
+#topRight{
+	height: 60px;
+	float:right;
+	margin-top:16px;
+	padding: 0;
+
+}
+ul{
+	list-style:none;
+	padding: 0;
+	margin:0;
+	float: left;
+
+}
+li{
+	float: left;
+	padding: 0;
+	width: 100px;
+}
+a:hover{
+	color: #ea6f6e;
+	padding-bottom: 20px; 
+	border-bottom: 5px solid #ea6f6e;
+}
+p{
+	margin:0;
+	padding: 0;
+}
+#loginLogo{
+	margin-left: 30px;
+	width:14px;
+	height:17px;
+	float:left;
+}
+#p2{
+	font-size: 14px;
+	color: #e74f4d;
+	margin-left:5px;
+	float:left;
+	margin-top: 0
+}
+#topLogo{
+	height: 854px;
+	background: url('./topLogo.png') no-repeat;
+	background-size: cover;
+
+	height: 854px;
+	padding-top:230px;
+
+}
+#p3{
+
+	margin-left: 115px;
+	font-size: 60px;
+	font-family: "Microsoft YaHei";
+	color: #fff;
+	box-sizing: border-box;
+}
+#p4{
+	margin-left: 115px;
+	font-size: 21px;
+	margin-top: 25px;
+	color: #fff;
+	font-family: "Microsoft YaHei";
+}
+#button{
+	margin-top: 65px;
+	width: 330px;
+	height: 65px;
+    text-align: center;
+    background-color: #e74f4d;
+    margin-left: 115px;
+    display: inline-block;
+    padding-top: 15px;
+
+
+
+
+}
+#p5{
+	color: #fff;
+	font-size: 30px;
+	align-self: center;
+}
+#middleBlock{
+	margin-top: -165px;
+	height: 250px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: row;
+
+}
+.category{
+	flex:1;
+	padding-top: 45px;
+	text-align: center;
+	position: static;
+}
+.caText{
+	font-size: 14;
+	font-family: SimHei;
+	margin-top: 45px;
+	font-family: #b5b5b5;
+
+
+}
+.seg{
+	/*margin-left: 80px;*/
+	margin-top:-40px;
+	width: 2px;
+	height: 50px;
+	background-color: #bbb;
+	float: right;
+}
+#middle{
+	height: 360px;
+	background-color: #ededec;
+	text-align: center;
+	padding-top: 90px;
+}
+#middleText{
+	margin-top: 45px;
+	font-size: 54px;
+	color: #a1a1a1;
+}
+#map{
+	height: 341px;
+	background:url("./map.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding-top: 50px;
+
+}
+.mapText{
+	font-family: "Microsoft YaHei";
+	color: #fff;
+}
+.mapText.p1{
+	font-size: 21px;
+}
+.mapText.p2{
+	margin-top: 30px;
+	font-size: 12px;
+}
+select {
+	margin-top: 50px;
+    border: solid 1px #bca099;
+    background-color: #fff;
+    display: inline-block;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    padding-right: 14px;
+    width: 235px;
+    height: 35px;
+    margin-right: 35px;
+    background: #fff url("selectLogo.png") no-repeat 95% center;
+    vertical-align: top;
+
+}
+#search{
+	margin-top: 50px;
+	width: 235px;
+	height: 35px;
+	text-align: center;
+	background-color: #be4e48;
+	display: inline-block;
+	 vertical-align: top;
+}
+
+</style>
+</head>
+<body>
+<div id="top">
+<img src="./topBook.png" id='topBook'>	
+<p id='p1'>新世界</p>
+<div id='topRight'>
+<ul>
+	<li><a>首页</a></li>
+	<li><a>最新活动</a></li>
+	<li><a>项目介绍</a></li>
+	<li><a>爱心社区</a></li>
+	<li><a>关于我们</a></li>
+</ul>
+<img src="./loginLogo.png" id="loginLogo">
+<p id='p2'>登录</p>
+</div>
+</div>
+<div id='topLogo'>
+<p id="p3">Time of new life</p>
+<p id="p4">新时代，年轻的人们让我们一起<br/>体验新生活，享受新生活</p>
+<div id="button"><span id="p5">开始体验</span></div>
+
+</div>
+<div id="middleBlock">
+<div class="category">
+<img src="./cLogo1.png" style="width: 42;height: 42">
+<p class="caText">打造全新世界观，让你更<br>爱你的生活</p>
+<div class="seg"></div>
+</div>
+<div class="category">
+<img src="./cLogo2.png" style="width: 42;height: 42">
+<p class="caText">丰富多彩的公益活动，发<br>挥新世界的主人公意识</p>
+<div class="seg"></div>
+</div>
+<div class="category">
+<img src="./cLogo3.png" style="width: 42;height: 42">
+<p class="caText">时尚的新理念，超前体验<br>未知的生活</p>
+<div class="seg"></div>
+</div>
+<div class="category">
+<img src="./cLogo4.png" style="width: 42;height: 42">
+<p class="caText">完善的培养机制，培养你<br>全新的世界观</p>
+</div>
+</div>
+<div id="middle">
+	<img src="./middleLogo.png" style="width: 92;height: 92;">
+	<p id="middleText">关于新世界，你不知道的还有什么？</p>
+</div>
+<div id="map">
+<p class="mapText p1">查找新世界城市活动信息</p>
+<p class="mapText p2">每个城市有不同的活动信息，请自主查询你所需要了解的城市</p>
+<select>
+	<option>中国</option>
+	<option>美国</option>
+	<option>英国</option>
+</select>
+<select>
+	<option>省份</option>
+	<option>北京</option>
+	<option>上海</option>
+</select>
+<select>
+	<option>城市</option>
+	<option>北京</option>
+	<option>上海</option>
+</select>
+<div id="search"><span style="color: #fff;vertical-align: center;">搜        索</span></div>
+</div>
+
+</body>
+
+</html>
