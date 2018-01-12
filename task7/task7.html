@@ -80,12 +80,11 @@ p{
 	margin-top: 0
 }
 #topLogo{
-	height: 854px;
+	height: 690px;
 	background: url('./topLogo.png') no-repeat;
 	background-size: cover;
-
-	height: 854px;
-	padding-top:230px;
+	padding-top:225px;
+	box-sizing: border-box;
 
 }
 #p3{
@@ -123,7 +122,7 @@ p{
 	align-self: center;
 }
 #middleBlock{
-	margin-top: -165px;
+	/*margin-top: -165px;*/
 	height: 250px;
 	background-color: #fff;
 	display: flex;
@@ -196,6 +195,8 @@ select {
     margin-right: 35px;
     background: #fff url("selectLogo.png") no-repeat 95% center;
     vertical-align: top;
+    padding-left:10px;
+    color: #a8aaaa;
 
 }
 #search{
@@ -205,8 +206,240 @@ select {
 	text-align: center;
 	background-color: #be4e48;
 	display: inline-block;
-	 vertical-align: top;
+	vertical-align: top;
+	
 }
+option{
+	 appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    color: #89898a;
+    margin-left: 12px;
+
+}
+	option:checked{
+	background-color: #a8aaaa;
+}
+#pictureView{
+	height: 605px;
+	background: #f8f8f8 url('./activityPic.png') no-repeat center;
+}
+#show{
+	height: 567px;
+}
+#showContent{
+	height: 567px;
+	width: 45.5%;
+	float: right;
+	vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin: auto;
+   /* background-color: #ff7;*/
+}
+#showTitle{
+	font-size: 20px;
+    color: #323333;
+    font-family: "SimSun";
+}
+#page{
+	font-size: 20px;
+	color: #e74f4d;
+	font-family: "SimSun";
+}
+#showText{
+	font-size: 12px;
+	color: #eaeaea;
+	font-family: "SimSun";
+	margin-top: 30px;
+	width: 290px;
+	line-height: 20px;
+}
+#showButton{
+	margin-top: 50px;
+	width: 105px;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid #e25d60;
+	
+}
+.circle{
+	
+	width: 12px;
+	height: 12px;
+	border:2px solid #919192;
+	border-radius: 12px;
+	float:left;
+	margin: 6px;
+	margin-top: 25px;
+
+}
+.circleColor{
+	background-color: #919192;
+}
+#newWorld{
+	width: 100%;
+	height: 521px;
+	display: flex;
+}
+.newPiece{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 21px;
+}
+#newPieceOne{
+	background-color: #e74f4d;
+	color: #fff;	
+}
+#newPieceTwo{
+	background-color: #fff;
+	color:#000;
+}
+#newPieceThree{
+	width: 431px;
+	background:url("./newRight.png") no-repeat right;
+}
+.newButton{
+	width: 170px;
+	height: 40px;
+	margin-top: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 21px;
+	font-family: 'SimHei';
+}
+#newButtonOne{
+	border:2px solid #fff;
+	color: #fff;
+	
+}
+#newButtonTwo{
+	border:2px solid #e74f4d;
+	color: #e74f4d;
+
+}
+#submit{
+	width: 100%;
+	height: 750px;
+	text-align: center;
+}
+#subTitle{
+	margin-top: 115px;
+	font-family: 'SimHei';
+	font-size: 21px;
+	text-align: center;
+
+}
+.subForeword{
+	margin-top: 15px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	text-align: center;
+	color: #aaa;
+}
+#subContent{
+	width: 100%;
+	height: 320px;
+	text-align: center;
+	margin-top: 100px;
+
+	/*margin-left: 130px;
+	margin-right: 130px;*/
+}
+#subIntroduce{
+	vertical-align: top;
+	display: inline-block;
+	width:290px;
+}
+
+.subOpition{
+	font-size: 14px;
+	font-family: "SimHei";
+	color: #807c7c;
+}
+.subDetail{
+	margin-top: 25px;
+	font-size: 12px;
+	font-family: 'SimSun';
+	color: #9d9b9a;
+	line-height: 20px;
+}
+#subInfo{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 70px;
+
+}
+input{
+	outline: none;
+	 /*box-shadow: none;*/
+    /* -moz-box-shadow: none;*/
+     border:0;
+     width: 310px;
+     height: 40px;
+     background-color: #ededee;
+     padding-left: 16px;
+}
+/*input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	margin-left: 16px;
+	
+	
+
+}
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  margin-left: 16px;
+}*/
+textarea{
+	outline: none;
+	 box-shadow: none;
+     -moz-box-shadow: none;
+     border:0;
+     width: 660px;
+     height: 125px;
+     background-color: #ededee;
+     margin-bottom: 15px;
+
+}
+#about{
+	width: 100%;
+	height: 355px;
+	background-color: #32363e;
+	text-align: center;
+	padding-top: 90px;
+	font-size: 0;
+}
+.aboutInfo{
+	font-family: 'SimSun'
+	font-size: 12px;
+	color: #fff;
+	margin-top: 10px;
+
+}
+.picture{
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-right: 30px;
+}
+#bottomBorder{
+	width: 100%;
+	height: 55px;
+	background-color: #2f3038;
+	padding-top: 25px;
+	box-sizing: border-box;
+	position: static;
+}
+
 
 </style>
 </head>
@@ -275,9 +508,97 @@ select {
 	<option>北京</option>
 	<option>上海</option>
 </select>
-<div id="search"><span style="color: #fff;vertical-align: center;">搜        索</span></div>
+<div id="search"><span style="color: #fff;vertical-align: middle;padding-top: 10px;">搜&nbsp&nbsp&nbsp索</span></div>
 </div>
+<div id="pictureView"></div>
+<div id="show">
+	<img src="./show.png" style="width: 852px;height: 567px;display: inline-block;"/>
+	<div id="showContent">
+		<p id="showTitle">新世界/<span id="page">01</span></p>
+		<p id="showText">新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+		<div id="showButton"><span style="font-size: 12px;font-family:'Microsoft YaHei';color: #e6797c">更多详情</span></div>
+		<div>
+		<div class="circle circleColor"></div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+		</div>
+	</div>
+</div>
+<div id="newWorld">
+	<div id="newPieceOne" class="newPiece">
+	<p>新时代</p>
+	<p>关于爱生活的我们</p>
+	<div style="width: 30px;height:2px;background-color: #fff;margin-top: 24px;"></div>
+	<div class="newButton" id="newButtonOne"><span>查看更多</span></div>	
+	</div>
 
+	<div class="newPiece" id="newPieceTwo">
+	<p>新时代</p>
+	<p>关于爱生活的我们</p>
+	<div style="width: 30px;height:2px;background-color: #ababaa;margin-top: 24px;"></div>
+	<div id="newButtonTwo" class="newButton"><span>查看更多</span></div>	
+	</div>
+	<div id="newPieceThree">
+	</div>
+</div>
+<div id="submit">
+	<p id="subTitle">成为我们的志愿者</p>
+	<div style="width: 30px;height: 2px;background-color: #e74f4d;margin: auto;margin-top: 10px;"></div>
+	<p class="subForeword">新世界的大家庭需要每一个爱生活的人的加入,如果你够年轻，有梦想，有激情</p>
+	<p class="subForeword" style="margin-top: 0">那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+    <div id="subContent">
+    	<div id="subIntroduce">
+    		<p class="subOpition">新世界志愿者协议</p>
+    		<p class="subDetail">加入新世界志愿者的人员必须遵守中华人民共共和国的相关法律法规，并且本着平等资源的原则 ......</p>
+    		<div style="margin-left: 245px">
+    		<img src="./more.png" style="width: 10px;height: 6px;display: inline-block;">
+            <p class="subDetail" style="margin-left:5px;margin-top: 0px;display: inline-block;">more</p>
+            </div> 
+            <p class="subOpition" style="margin-top: 35px;">新世界志愿者权利</p>
+    		<p class="subDetail">新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动的优先参与资格</p>
+    		<div style="margin-left: 245px">
+    		<img src="./more.png" style="width: 10px;height: 6px;display: inline-block;">
+            <p class="subDetail" style="margin-left:5px;margin-top: 0px;display: inline-block;">more</p>
+            </div>
+            <p class="subOpition" style="margin-top: 35px;">更多条款</p>
+             <div style="margin-left: 245px">
+    		<img src="./more.png" style="width: 10px;height: 6px;display: inline-block;">
+            <p class="subDetail" style="margin-left:5px;margin-top: 0px;display: inline-block;">more</p>
+            </div>
+    	</div>
+    <div id="subInfo">
+    <div style="margin-bottom: 15px;">
+    	<input type="text"  placeholder="姓名:" style="display: inline-block;"/>
+    	<input type="text"  placeholder="年龄:" style="display:inline-block;margin-left: 18px;"/>
+    </div>
+    <div style="margin-bottom: 15px;">
+    	<input type="text"  placeholder="联系方式:"/>
+    	<input type="text"  placeholder="联系地址:" style="margin-left: 18px;"/>
+    </div>
+    <textarea placeholder="请简单描述你梦想的生活" style="padding-left: 16px;padding-top: 10px;"></textarea>
+    <div>
+    <input  placeholder="提交申请" style="text-align: center;color: #000;width: 660px;" />
+    </div>
+    </div>
+</div>
+</div>
+<div id="about">
+<p style="font-family:'SimHei';font-size: 21px;color: #fff;">联系我们</p>
+<p class="aboutInfo"  style="font-size: 12px;">为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯</p>
+<p class="aboutInfo" style="margin-top: 0;font-size: 12px;">也可以通过以下任何方式关注我们动态</p>
+<input placeholder="someone@email.com" style="background-color: #fff;width: 430px;height: 40px;margin-top:30px;"/>
+<input placeholder="提交"  style="width: 80px;height: 40px;background-color: #6f7178;text-align: center;padding-left: 0;color: #fff" />
+<div style="margin-top: 30px">
+<img src="./qq.png"  class="picture"/>
+<img src="./weibo.png"  class="picture"/>
+<img src="./twitter.png"  class="picture"/>
+<img src="./world.png"  class="picture"/>
+</div>
+</div>
+<div id="bottomBorder">
+<P style="position:absolute;right:100px;font-size: 12px;font-family: 'SimSun';color: #fff;">Back to top</P>
+<P style="margin-left: 100px;font-size: 12px;font-family: 'SimSun';color: #fff;">@2016新世界</P>	
+</div>
 </body>
 
 </html>
